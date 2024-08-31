@@ -40,14 +40,11 @@ export default function Home() {
           <Pixelgrade />
         </section>
         <section className="bg-silver">
+        <Design />
           <BusinessStats />
         </section>
-        <section className="bg-white">
-          <Design />
-        </section>
-        <section className="bg-silver">
-          <MeetAllCustomers />
-        </section>
+       
+       
         
        
         <footer className="bg-secondary">
