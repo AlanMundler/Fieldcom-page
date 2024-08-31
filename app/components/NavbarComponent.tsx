@@ -10,28 +10,25 @@ import NavbarToggle from "react-bootstrap/NavbarToggle";
 
 const NavbarContent = [
   {
-    title: "Home",
+    title: "Inicio",
     link: "/",
   },
   {
-    title: "Service",
-    link: "#service",
+    title: "Nosotros",
+    link: "#nosotros",
   },
   {
-    title: "Feature",
-    link: "#feature",
+    title: "Servicios",
+    link: "#servicios",
   },
   {
-    title: "Product",
-    link: "#product",
+    title: "Productos",
+    link: "#productos",
   },
-  {
-    title: "Testimonial",
-    link: "#testimonial",
-  },
-  {
-    title: "FAQ",
-    link: "#faq",
+  
+   {
+    title: "Contacto",
+    link: "#contacto",
   },
 ];
 
@@ -43,14 +40,12 @@ const NavbarComponent = () => {
           href="/"
           className="navbar-brand d-flex flex-row align-items-center gap-2"
         >
-          <Image src="/logo.svg" width={35} height={24} alt="logo" />
-          <span className="my-auto font-inter text-secondary fs-2 fw-bold">
-            Nexcent
-          </span>
+          <Image src="/logo.png" width={150} height={40} alt="logo" />
+          
         </Link>
         <NavbarToggle aria-controls="navbarScroll" />
         <NavbarCollapse id="navbarScroll">
-          <Nav className="mx-auto font-inter fw-medium">
+          <Nav className="mx-auto font-bold fw-bolder">
             {NavbarContent.map((item) => (
               <Link
                 href={item.link}
@@ -63,12 +58,7 @@ const NavbarComponent = () => {
               </Link>
             ))}
           </Nav>
-          <div className="d-flex gap-1 justify-content-end align-items-center">
-            <Button variant="outline-primary" type="button">
-              login
-            </Button>
-            <Button variant="primary text-white">Signup</Button>
-          </div>
+          
         </NavbarCollapse>
       </Container>
     </Navbar>
