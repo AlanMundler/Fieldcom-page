@@ -4,32 +4,33 @@ import Image from "next/image";
 
 const SocialIcon = ({ imgUrl }: { imgUrl: string }) => {
   return (
-    <div className="bg-gray-900 border border-white px-2 py-2 rounded-circle">
+    <div className="bg-primary border border-white px-2 py-2 rounded-circle">
       <Image src={imgUrl} width={24} height={24} alt="social-media" />
     </div>
   );
 };
 
 const socialMediaContent = [
-  "/SocialMedia/instagram.svg",
-  "/SocialMedia/dribble.svg",
-  "/SocialMedia/twitter.svg",
-  "/SocialMedia/youtube.svg",
+  "/SocialMedia/insta.png",
+  "/SocialMedia/in.png",
+  "/SocialMedia/mail.png",
+  "/SocialMedia/wpp.png",
 ];
 
 export const footerLinks = [
   {
-    title: "Company",
-    links: ["About Us", "Blog", "Contact us", "Pricing", "Testimonials"],
+    title: "Empresa",
+    links: ["Nosotros", "Contactanos", "Precios", "Reseñas"],
   },
   {
-    title: "Support",
+    title: "Soporte",
     links: [
-      "Help center",
-      "Terms of service",
+      "Ayuda",
+      "Terminos",
       "Legal",
-      "Privacy policy",
-      "Status",
+      "Privacidad",
+      
+      
     ],
   },
 ];
@@ -45,13 +46,11 @@ const FooterComponent = () => {
           href="/"
           className="navbar-brand d-flex flex-row align-items-center gap-2"
         >
-          <Image src="/logo_icon.svg" width={35} height={24} alt="logo" />
-          <span className="my-auto font-inter text-white fs-2 fw-bold">
-            Nexcent
-          </span>
+          <Image src="/logo.png" width={180} height={50} alt="logo" />
+          
         </Link>
         <div className="mt-4 text-silver fs-6">
-          <p>Copyright © 2020 Nexcent ltd.</p>
+          <p>Copyright © 2024 Fieldcom.</p>
           <p className="mt-3">All rights reserved</p>
         </div>
         <div className="mt-5 d-flex justify-content-start align-items-start gap-3">

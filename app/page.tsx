@@ -48,12 +48,8 @@ export default function Home() {
         <section className="bg-silver">
           <MeetAllCustomers />
         </section>
-        <section className="bg-white pb-5">
-          <Marketing />
-        </section>
-        <section className="bg-silver mt-5">
-          <Demo />
-        </section>
+        
+       
         <footer className="bg-secondary">
           <FooterComponent />
         </footer>
