@@ -4,12 +4,12 @@ import StatCard from "../components/StatCard";
 const StatContent = [
   {
     title: "Miembros",
-    value: 3,
+    value: "3",
     imgUrl: "/Stats/icon1.svg",
   },
   {
     title: "Proyectos",
-    value: 0,
+    value: "0",
     imgUrl: "/Stats/icon4.svg",
   },
   {
