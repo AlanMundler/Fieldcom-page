@@ -6,8 +6,8 @@ import "./styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Nexcent",
-  description: "Lessons and Insights from 8 years",
+  title: "Fieldcom.",
+  description: "Energía que conecta.",
 };
 
 export default function RootLayout({

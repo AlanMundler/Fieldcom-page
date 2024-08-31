@@ -25,7 +25,7 @@ const ManageCard = ({ id, imgUrl, title }: ManageCardProps) => {
       <div className="d-flex flex-column text-center gap-1">
         <h1 className="fs-1 fw-bold text-gray-900">{title}</h1>
         <p className="fs-6 fw-light text-gray-200">
-        Ofrecemos servicios integrales de telecomunicaciones, diseñados para conectar a las personas y las empresas de manera eficiente y confiable. Implementamos infraestructura de red, sistemas de fibra óptica y soluciones de comunicación avanzada que garantizan la máxima conectividad. </p>
+        Nos especializamos en ofrecer soluciones completas de telecomunicaciones que se adaptan a las necesidades específicas de cada cliente. Desde la instalación de infraestructura de red hasta la implementación de sistemas avanzados de comunicación, nuestro equipo se dedica a garantizar una conectividad rápida y confiable, para asegurar que tu empresa esté siempre conectada.</p>
       </div>
       :
       <div className="d-flex flex-column text-center gap-1">

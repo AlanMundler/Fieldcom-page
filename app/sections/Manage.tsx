@@ -5,17 +5,17 @@ const ManageContent = [
   {
     id: 1,
     title: "Electricidad",
-    imgUrl: "/Features/icon1.svg",
+    imgUrl: "/Features/elec.png",
   },
   {
     id: 2,
     title: "Telecomunicaciones",
-    imgUrl: "/Features/icon2.svg",
+    imgUrl: "/Features/tele.png",
   },
   {
     id: 3,
     title: "Cloud",
-    imgUrl: "/Features/icon3.svg",
+    imgUrl: "/Features/cloud.png",
   },
 ];
 

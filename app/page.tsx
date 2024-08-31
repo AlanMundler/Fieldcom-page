@@ -35,6 +35,7 @@ export default function Home() {
         </header>
         <section className="bg-white">
           <Clients />
+          
           <Manage />
           <Pixelgrade />
         </section>

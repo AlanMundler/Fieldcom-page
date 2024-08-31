@@ -34,7 +34,7 @@ const NavbarContent = [
 
 const NavbarComponent = () => {
   return (
-    <Navbar className="bg-silver py-2" collapseOnSelect expand="lg" data-aos="fade-down">
+    <Navbar className="bg-primary  py-2" collapseOnSelect expand="lg" data-aos="fade-down">
       <Container>
         <Link
           href="/"
