@@ -21,7 +21,7 @@ const ManageContent = [
 
 const Manage = () => {
   return (
-    <Container className="text-center font-inter bg-white py-5">
+    <Container className="text-center font-inter bg-white py-5 manage-container ">
       <div data-aos="fade-down">
         <h1 className="fs-1 lh-base text-gray-900 fw-bold">
           Servicios
@@ -30,7 +30,7 @@ const Manage = () => {
           Que podes encontrar de nosotros?
         </p>
       </div>
-      <div className="mt-4 d-flex flex-lg-row flex-column justify-content-between align-items-center">
+      <div className="manage-container mt-4 d-flex">
         {ManageContent.map((card) => (
           <ManageCard key={card.id} {...card} />
         ))}

@@ -46,7 +46,7 @@ const FooterComponent = () => {
           href="/"
           className="navbar-brand d-flex flex-row align-items-center gap-2"
         >
-          <Image src="/logo.png" width={180} height={50} alt="logo" />
+          <Image src="/Stats/logo-fieldcom.svg" width={245} height={70} alt="logo" />
           
         </Link>
         <div className="mt-4 text-silver fs-6">

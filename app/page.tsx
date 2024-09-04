@@ -26,8 +26,11 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
+   
+    <main >
+     
         <header className="bg-silver">
+          
           <NavbarComponent />
           <section className="bg-silver">
             <Hero />
