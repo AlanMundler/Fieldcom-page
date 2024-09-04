@@ -10,12 +10,12 @@ type ManageCardProps = {
 const ManageCard = ({ id, imgUrl, title }) => {
   return (
     <Container
-  className="mt-4"
+  className=""
   data-aos={id === 1 ? "fade-right" : id === 2 ? "fade-down" : "fade-left"}
-   // Usa flex para asegurar la altura completa
+  // Usa flex para asegurar la altura completa
 >
   <Image src={imgUrl} width={65} height={65} alt={title} className="mb-3" />
-  <div className="d-flex flex-column justify-content-center text-center align-items-center gap-2">
+  <div className="d-flex flex-column align-items-center gap-2">
     <h1 className="fs-1 fw-bold text-gray-900">{title}</h1>
     <p className="fs-6 fw-light text-gray-200">
           {id === 1
