@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import ManageCard from "../components/ManageCard";
+import ServiciosCard from "../components/ServiciosCard";
 
 const ManageContent = [
   {
@@ -19,11 +19,11 @@ const ManageContent = [
   },
 ];
 
-const Manage = () => {
+const Servicios = () => {
   return (
     <Container className="text-center font-inter bg-white py-5 manage-container d-flex flex-column  ">
       <div data-aos="fade-down">
-        <h1 className="fs-1 lh-base text-gray-900 fw-bold">
+        <h1 className="servicios-tittle fs-1 lh-base text-gray-900 fw-bold">
           Servicios
         </h1>
         <p className="text-gray-200 fw-light fs-6 mt-4">
@@ -32,11 +32,11 @@ const Manage = () => {
       </div>
       <div className="">
         {ManageContent.map((card) => (
-          <ManageCard key={card.id} {...card} />
+          <ServiciosCard key={card.id} {...card} />
         ))}
       </div>
     </Container>
   );
 };
 
-export default Manage;
+export default Servicios;

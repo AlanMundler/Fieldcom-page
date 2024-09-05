@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "react-bootstrap/Button";
 
 const SocialIcon = ({ imgUrl }: { imgUrl: string }) => {
   return (
@@ -24,14 +25,7 @@ export const footerLinks = [
   },
   {
     title: "Soporte",
-    links: [
-      "Ayuda",
-      "Terminos",
-      "Legal",
-      "Privacidad",
-      
-      
-    ],
+    links: ["Ayuda", "Terminos", "Legal", "Privacidad"],
   },
 ];
 
@@ -46,8 +40,12 @@ const FooterComponent = () => {
           href="/"
           className="navbar-brand d-flex flex-row align-items-center gap-2"
         >
-          <Image src="/Stats/logo-fieldcom.svg" width={245} height={70} alt="logo" />
-          
+          <Image
+            src="/Stats/logo-fieldcom.svg"
+            width={245}
+            height={70}
+            alt="logo"
+          />
         </Link>
         <div className="mt-4 text-silver fs-6">
           <p>Copyright © 2024 Fieldcom.</p>
@@ -86,9 +84,9 @@ const FooterComponent = () => {
               data-bs-theme="dark"
               placeholder="Your email address"
             />
-            <button className="btn btn-dark">
+            <Button className="btn btn-dark">
               <Image src="/send.svg" height={20} width={20} alt="send" />
-            </button>
+            </Button>
           </div>
         </div>
       </div>

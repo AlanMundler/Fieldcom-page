@@ -1,20 +1,20 @@
 import Hero from "./Hero";
-import Clients from "./Clients";
-import Manage from "./Manage";
-import Pixelgrade from "./Pixelgrade";
-import BusinessStats from "./BusinessStats";
-import Design from "./Design";
+import Nosotros from "./Nosotros";
+import Servicios from "./Servicios";
+import Productos from "./Productos";
+import Estadisticas from "./Estadisticas";
+import Adn from "./Adn";
 import MeetAllCustomers from "./MeetAllCustomers";
 import Marketing from "./Marketing";
 import Demo from "./Demo";
 
 export {
   Hero,
-  Clients,
-  Manage,
-  Pixelgrade,
-  BusinessStats,
-  Design,
+  Nosotros,
+  Servicios,
+  Productos,
+  Estadisticas,
+  Adn,
   MeetAllCustomers,
   Marketing,
   Demo,

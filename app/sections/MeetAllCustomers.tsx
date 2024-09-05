@@ -31,15 +31,15 @@ const MeetAllCustomers = () => {
           British Dragon Boat Racing Association
         </p>
         <div className="d-flex flex-sm-row flex-column justify-content-between align-items-lg-center align-items-start">
-        {[1, 2, 3, 4, 5, 6, 7].map((value) => (
-          <Image
-            src={`/Clients/client${value}.svg`}
-            width={48}
-            height={48}
-            alt={`client-${value}`}
-            key={value}
-          />
-        ))}
+          {[1, 2, 3, 4, 5, 6, 7].map((value) => (
+            <Image
+              src={`/Clients/client${value}.svg`}
+              width={48}
+              height={48}
+              alt={`client-${value}`}
+              key={value}
+            />
+          ))}
           <section className="d-flex align-items-center justify-content-center text-center">
             <p className="text-primary fw-semibold fs-5 font-inter">
               Meet All Customers{" "}

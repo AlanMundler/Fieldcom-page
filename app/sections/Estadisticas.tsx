@@ -17,10 +17,9 @@ const StatContent = [
     value: "27/8/24",
     imgUrl: "/Stats/icon3.svg",
   },
-
 ];
 
-const BusinessStats = () => {
+const Estadisticas = () => {
   return (
     <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-start align-items-lg-center px-5 py-5 bg-silver">
       <div className="font-inter" data-aos="fade-right">
@@ -28,8 +27,6 @@ const BusinessStats = () => {
           Datos sobre&nbsp; <br />
           <span className="text-primary">Fieldcom.</span>
         </h1>
-        
-        
       </div>
       <div className="grid-container">
         {StatContent.map((card) => (
@@ -40,4 +37,4 @@ const BusinessStats = () => {
   );
 };
 
-export default BusinessStats;
+export default Estadisticas;
